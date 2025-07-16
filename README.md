@@ -1,6 +1,8 @@
 ## 🌐 Asklet
 ### In-Browser LLM Benchmarking with WebLLM + LangChain
 
+https://github.com/hwclass/asklet/assets/asklet-intro.mov
+
 Asklet is an open benchmarking sandbox for testing local LLM inference performance across modern frontend frameworks like React, Svelte, and Qwik — using WebLLM and LangChain.js.
 
 🔍 What it does:
