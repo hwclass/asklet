@@ -1,0 +1,37 @@
+{
+    "name": "asklet",
+    "version": "0.1.0",
+    "description": "Tiny in-browser AI assistant using WebLLM",
+    "main": "dist/index.js",
+    "module": "dist/index.es.js",
+    "types": "dist/index.d.ts",
+    "exports": {
+        ".": {
+            "import": "./dist/asklet.es.js",
+            "require": "./dist/asklet.umd.js",
+            "types": "./dist/index.d.ts"
+        }
+    },
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "vite build",
+        "dev": "vite"
+    },
+    "dependencies": {
+        "@langchain/community": "^0.3.46",
+        "@langchain/core": "^0.3.58",
+        "@mlc-ai/web-llm": "^0.2.79"
+    },
+    "peerDependencies": {
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0"
+    },
+    "devDependencies": {
+        "@types/react": "^18.0.0",
+        "@vitejs/plugin-react": "^4.0.0",
+        "typescript": "^5.0.0",
+        "vite": "^6.3.5"
+    }
+}

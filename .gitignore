@@ -1,0 +1,38 @@
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*.local
+
+# Build output
+dist/
+build/
+out/
+coverage/
+tmp/
+temp/
+
+# IDE/editor folders
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Testing
+jest-test-results.json
+coverage/
+test-results/
+
+# Miscellaneous
+.log
+logs/
+*.log
+

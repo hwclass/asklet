@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebLLM + LangChain + Web Components</title>
+    <script type="module" src="/src/index.ts"></script>
+    <style>
+      body {
+        margin: 0;
+        display: flex;
+        place-items: center;
+        min-width: 320px;
+        min-height: 100vh;
+        font-family: system-ui, -apple-system, sans-serif;
+      }
+      #app {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 2rem;
+        text-align: center;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <img src="/headline.png" alt="WebLLM + LangChain = Asklet" />
+      <p>
+        Open DevTools and try: <code>await ask("Summarize this page")</code>
+      </p>
+      <asklet-element model="Hermes-2-Theta-Llama-3-8B-q4f16_1-MLC"></asklet-element>
+    </div>
+  </body>
+</html> 
